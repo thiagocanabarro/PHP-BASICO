@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
+
+    <!-- http://127.0.0.1/PHP-BASICO/aula06.php?p=100&aa=2014 -->
+
     <?php
     $preco = $_GET['p'];
     echo "<br>O Preço do produto é R$ : ". $preco;
@@ -19,6 +22,17 @@
     echo "<br>O ano atual é: " .$atual;
     //echo "<br>O ano anterior é: " .--$atual;
     echo "<br>O próximo ano é: " .++$atual;
+    $a = 3;
+    $b = $a;
+    $b += 5;
+    echo "<br/>A variavel A vale $a";
+    echo "<br/>A variavel B vale $b";
+
+    $x = "abc";
+    $$x = "def";
+
+    echo "<br>O conteudo da variavel X é $x";
+    echo "<br>A variavel criada recebeu o valor $abc";
     ?>
 </body>
 </html>
