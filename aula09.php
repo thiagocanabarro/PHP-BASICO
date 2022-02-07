@@ -18,15 +18,12 @@
                 $tipoVoto = "não vota";
             }
 
-            else {
-                if (($i >= 16 && $i < 18) || ($i>65)) {
+            elseif (($i >= 16 && $i < 18) || ($i>65)) {
                     $tipoVoto = "voto opcional";
                 }
                 else {
                     $tipoVoto = "voto obrigatório";
                 }
-            }
-
             echo "Para essa idade, $tipoVoto";
 
         ?>

@@ -28,7 +28,7 @@
     echo "<br>A raiz quadrada de $v1 é: " .sqrt($v1);
     echo "<br>O arredondamento de $v1 é: ".round($v1); // ceil (arredonda pra cima) floor (arredonda pra baixo)
     echo "<br>A parte inteira de $v2 é: " .intval($v2);  
-    echo "<br>O valor de $v1 em moeda é R$: " .number_format($v1, 2);
+    echo "<br>O valor de $v1 em moeda é R$: " .number_format($v1,2);
 
     ?>
 </body>

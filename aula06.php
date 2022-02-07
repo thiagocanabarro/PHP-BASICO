@@ -28,6 +28,7 @@
     echo "<br/>A variavel A vale $a";
     echo "<br/>A variavel B vale $b";
 
+    // VARIAVEL DE VARIAVEL
     $x = "abc";
     $$x = "def";
 
