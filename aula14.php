@@ -16,7 +16,7 @@
         soma (8,2);
         $x = 9;
         $y = 15;
-        soma ($x, $y);
+        soma ($x, $y); 
     ?>
 </body>
 </html>
